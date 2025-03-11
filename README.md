@@ -1,1 +1,0 @@
-# EscolaAngelo2025
