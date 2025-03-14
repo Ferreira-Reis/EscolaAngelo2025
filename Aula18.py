@@ -21,7 +21,7 @@ print(lista)
 print()
 while 7 in lista:
  lista.remove(7)
- print(lista)
+print(lista)
 print("Acabou")
 
 valorRemovido = lista.pop(2)
