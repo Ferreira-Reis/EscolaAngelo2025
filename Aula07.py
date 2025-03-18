@@ -8,6 +8,6 @@ n2 = 18
 
 # soma = n1 + n2
 if n1 + n2 >20:
-    print("maior que 20")
+ print("maior que 20")
 else:
-    print("menor que 20")
+ print("menor que 20")
