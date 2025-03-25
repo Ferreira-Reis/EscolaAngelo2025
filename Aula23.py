@@ -36,3 +36,29 @@ for numero in range(1, 9, 2):
 print()
 lista_com_range = list(range(1, 11))
 print(lista_com_range)
+
+for letra in "Ciência de Dados":
+  print(letra)
+
+  escola = "Angelo Mendes"
+print("O índie 7 da string escola é: ", escola[7])
+
+lista = []
+texto = "Hoje é terça feira!"
+for letra in texto:
+  lista.append(letra)
+
+print(lista)
+
+for letra in lista:
+  print(letra, end="")
+
+print()
+# Faça uma lsita de números de 1 até 20 e some os pares usando range e for:
+lista2 = list(range(1, 21))
+print(lista2)
+soma = 0
+for numero in lista2:
+  if numero % 2 == 0:
+    soma += numero
+print(soma)
