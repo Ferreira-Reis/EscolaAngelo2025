@@ -37,6 +37,10 @@ numero_palavras = len(palavras)
 print(f"O número de palavras na frase é: {numero_palavras}")
 
 #  7. Crie uma função que receba uma frase como parâmetro e retorne a mesma frase com as palavras invertidas. Por exemplo, “Olá Mundo” deve ser transformado em “Mundo Olá”.
+frase = "Olá Mundo"
+frase =  frase.split()
+invertida = ' '.join(reversed(frase.split()))
+print(reversed(invertida))
 
 #  8. Solicite ao usuário que digite uma string que contenha espaços em branco no início e no final. Remova esses espaços e imprima a string resultante.
 string_com_espacos = input("Digite uma string com espaços no início e no final: ")
@@ -44,3 +48,5 @@ string_sem_espacos = string_com_espacos.strip()
 print(f"String sem espaços: '{string_sem_espacos}'")
 
 #  9. Crie uma função que receba um número inteiro e retorne uma string que o represente com separadores de milhares. Por exemplo, para o número 1234567, a função deve retornar “1,234,567”.
+numero = 1234567
+print(f"{numero:,}")
